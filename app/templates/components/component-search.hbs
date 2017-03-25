@@ -1,0 +1,8 @@
+
+<form {{action "doSearch" on="submit"}}>{{input value=search}}</form>
+
+<ul>
+{{#each highlights as |highlight|}}
+  <li>{{component-highlight highlight=highlight}}</li>
+{{/each}}
+</ul>

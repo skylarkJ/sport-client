@@ -1,0 +1,6 @@
+<a target="_blank" href="http://youtube.com/watch?v={{favorite.video_id}}">
+  <div><img src="{{favorite.image}}"></div>
+  <div>{{favorite.title}}</div>
+  <div>{{favorite.date}}</div>
+</a>
+<button {{action "deleteFromFavorites" favorite}}>Delete</button>

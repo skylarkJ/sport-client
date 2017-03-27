@@ -4,8 +4,8 @@
 ## User Stories
 [5 User Stories](https://www.evernote.com/l/AUCS4safzslABoAwJb6duONcc8rbzzvRsaw)
 
-## Wireframe:
-[Wireframe](https://github.com/skylarkJ/sport-client/blob/feature/public/wireframe-sport.png?raw=true)
+Wireframes:
+![wireframe-sport](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/wireframe-sport.png)
 
 ## [License](LICENSE)
 

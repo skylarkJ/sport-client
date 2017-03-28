@@ -1,5 +1,12 @@
-<a target="_blank" href="http://youtube.com/watch?v={{highlight.id}}">
-  <div><img src="{{highlight.snippet.data.thumbnails.default.url}}"></div>
-  <div>{{highlight.snippet.data.title}}</div>
-  <div>{{highlight.snippet.data.publishedAt}}</div>
-</a>
+{{#unless isHidden}}
+  <li>
+    <a target="_blank" href="http://youtube.com/watch?v={{highlight.id}}">
+      <div><img src="{{highlight.snippet.data.thumbnails.default.url}}"></div>
+      <div>{{highlight.snippet.data.title}}</div>
+      <div>{{highlight.snippet.data.publishedAt}}</div>
+    </a>
+    {{#if isAuthenticated}}
+      <button {{action "addToFavorites" highlight}}>Add To Favorites</button>
+    {{/if}}
+  </li>
+{{/unless}}

@@ -1,14 +1,15 @@
 import Ember from 'ember';
+import ENV from 'sport-highlights/config/environment';
 
 export default Ember.Component.extend({
   search: '',
+  store: Ember.inject.service(),
   actions: {
     doSearch () {
-      this.set('search', '');
       Ember.$.ajax({
-        url: 'http://localhost:4741/search?query=' + this.get('search')
-
+        url: ENV.apiHost + '/highlights?query=' + this.get('search')
       }).then(data => {
+        this.set('search', '');
         this.set('highlights', data);
       });
     }

@@ -1,8 +1,10 @@
 
-<form {{action "doSearch" on="submit"}}>{{input value=search}}</form>
+<div>
+  <form {{action "doSearch" on="submit"}}>{{input value=search placeholder="Search for your favorite NHL team highlights"}}</form>
 
-<ul>
-{{#each highlights as |highlight|}}
-  <li>{{component-highlight highlight=highlight}}</li>
-{{/each}}
-</ul>
+  <ul>
+  {{#each highlights as |highlight|}}
+    {{component-highlight highlight=highlight}}
+  {{/each}}
+  </ul>
+</div>

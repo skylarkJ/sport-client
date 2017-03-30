@@ -1,15 +1,13 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
-
-## An embedded screenshot of the app
+## An embedded Screenshot Of The App
 ![JUST HIGHLIGHTS]
-(https://lh3.googleusercontent.com/QFLZjb30MZyI1dkoojhEV4fKZ3WuGG5b0ZUTMgWir7_sj08n28Oo9Abiwa42HnoTzfiRjUb68Uqg0MhVfK9hUD1awlr_MbQpoT7dSeKi3sMObixM6u4tfyhAzVQt0qIodzDcnliBtvvnggV-qKPrnYO6WhIwWYwCzRyf_K5a7_R9Zb29gA2MWutQFiRL3ecAfKQRBM5nIxfO4ruCF3KlQ3cEWnzPUW9OuH59Leke-32MokQI7tSYx_ZupgvJN3IU8Me0KN53HMvrKcIDsIzjhjtYk0k_NRuunGDGjTOfUhJtvBzkY0WPqpBY_FDa3Y2NMnaJsITWJhBySElTK3pk_127OjrBmdpbTZkAyrLKXQ-3wfO1NrLxYFtaYe7Yj0RGDieHzuBfxkkuBwHkC5GcFXF9lqj7dN4xiu5d05JFqLbzTkCeKULouZvfJlEwVyJl8KXJ3OU_yKjK5u_5rh_cR6dxqGVoWkbU7gUJX9GbIzYEb1oG-tL1ALDuUSA0T22YW7rHVWaHZAxNFbZxZuwZyzE9fAu9q7oFtYsZfpDpj778ANVHA0w7Z8zs3hNHFXKHZVFe_kXbLf-7DhhJZ9lCSxNy2mh3OXZDQelscQnsp87qNIfbUSfr=w1172-h544-no)
+()
 
-## Explanations of the technologies used
+## Explanations Of The Technologies Used
 I have used javascript front end framework Ember.js while Ruby on Rails on the back end.
 YouTube highlights are rendered in the browser through a controller in the backend and route -
 making queries to YouTube APIs.
 
-## A couple paragraphs about the general approach you took
+## A Couple Paragraphs About The General Approach I Took
 I have picked to build an application that would solve the inconvinient jumping of sport fans of any kinds from one application to another to catch up on sport highlights in their busy lives.
 Now with the mind of 4 days to complete a project I decided to go with
 highlights for just NHL teams. There are 30 teams available and all highligts accessible
@@ -17,7 +15,8 @@ from YouTube APIs. The search is sorted from the top to bottom according to the 
 
 At first I created user stories and split them to see which needs to be fullfill to meet requirements and what can wait until more time. Then I created wireframe to get more sence about the layout and a user flow. After that I broke it into several tasks and used trello to track the workflow.
 
-I have two models - user and favorite. I have several attributes for favorite ### snippet of model - favorite.js
+I have two models - user and favorite. I have several attributes for favorite.
+### snippet of model - favorite.js
 `
 export default DS.Model.extend({
   title: DS.attr('string'),
@@ -32,10 +31,7 @@ components favorite, highlight and search
 route for favorites
 template components: favorite, highlight, search, index
 
-
-
-
-## Installation instructions for any dependencies
+## Installation Instructions For Any Dependencies
 npm
 
 replace all dependent package versions in package.json with a glob (*).
@@ -54,17 +50,17 @@ Take the new version numbers from the top level of the list and paste them into 
 bower install
 ember test
 
-## Installation in General
+## Installation In General
 
-Download from this [ember-template](https://github.com/skylarkJ/ember-template).
-Unzip and rename the template directory.
-Empty README.md and fill with your own content.
-Move into the new project and git init.
-Replace all instances of 'ga-wdi-boston.ember-template' with your app name. This includes package.json, bower.json, app/index.html, tests/index.html, and config/environment.js, possibly others.
-Install dependencies with npm install and bower install.
-Run the development server with ember server. Use the --proxy flag to avoid writing development-specific CORS and CSP settings.
+Downloaded from this [ember-template](https://github.com/skylarkJ/ember-template).
+Unzipped and renamed the template directory.
+Emptied README.md and filled with my own content.
+Moved into the new project and git init.
+Replaced all instances of 'ga-wdi-boston.ember-template' with your app name. This included package.json, bower.json, app/index.html, tests/index.html, and config/environment.js, possibly others.
+Installed dependencies with npm install and bower install.
+Ran the development server with ember server. Use the --proxy flag to avoid writing development-specific CORS and CSP settings.
 
-### Tasks to Run During Developments
+### Tasks To Run During Developments
 grunt nag or just grunt: runs code quality analysis tools on your code and complains
 grunt reformat: reformats all your code in a standard style
 ember server: generates bundles, watches, and livereloads (use the --proxy flag when developing locally)
@@ -73,18 +69,18 @@ ember build: prepare a distribution for deployment (use the --environment flag i
 ember generate: make use of the many generators for code (try ember help generate for more details)
 
 
-## Link to my user stories
+## Link To My User Stories
 [5 User Stories](https://www.evernote.com/l/AUCS4safzslABoAwJb6duONcc8rbzzvRsaw)
 
-## Link to my wireframes
+## Link To My Wireframes
 Wireframes:
 ![wireframe-sport](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/wireframe-sport.png "Wireframes")
 
-## Link to your pitch deck – documentation of your wireframes, user stories, and proposed architecture
+## Link To Your Pitch Deck – Documentation Of Your Wireframes, User Stories, And Proposed Architecture
 [my pitch deck for JUST HIGHLIGHTS](https://docs.google.com/presentation/d/1CRXbgFHTlAKbT8JktzDg_p8uQ-_ymQN-vpW0kXDPWaU/edit?usp=sharing)
 
 
-## Descriptions of any unsolved problems or major hurdles you had to overcome
+## Descriptions Of Any Unsolved Problems Or Major Hurdles You Had To Overcome
 
 I had a major hurdle with this snippet bellow. Specificaly with the publishedAt. YouTube has almost no examples of how their APIs can be accessed. The JSON data is available but I was forgetting the .data.
 
@@ -112,14 +108,5 @@ actions: {
 ```
 
 ### YouTube APIs Rendering from JSON
-#### JSON structure showing the format of a videos resource:
+#### JSON Structure Showing The Format Of A Videos Resource:
 [YouTube v3 Data API Video Resources](https://developers.google.com/youtube/v3/docs/videos#resource)
-
-
-
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.

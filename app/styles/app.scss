@@ -1,21 +1,29 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
 
-// h2 {
-//   color: #fff;
-// }
-//
-// img {
-//   width: 60%;
-// }
-//
-// li {
-//   list-style: none;
-// }
-//
-// body {
-//   background: -webkit-gradient(radial, 69% 50%, 0px, 69% 50%, 100%, Colour-stop(15%, #2f2fef), Colour-stop(70%, #1b1920));
-//   background: -webkit-radial-gradient(69% 50%, ellipse cover, #2f2fef 15%, #1b1920 70%);
-//   background: -webkit-radial-gradient(69% 50% ellipse, #2d2d39 15%, #1b1920 70%);
-//   background: radial-gradient(ellipse at 69% 50%, #2f2fef 15%,#1b1920 70%);
-// }
+h1 {
+  color: red;
+}
+
+img {
+  width: 60%;
+}
+
+li {
+  display:inline-block;
+  width: 50%;
+  float: left;
+}
+
+.form-control {
+  font-size: 16px;
+  margin-bottom: 20px;
+  height: 80px;
+  max-width: 800px;
+}
+
+ .style-buttons {
+ margin: 3px 0px 20px 0px;
+ width: 150px;
+ height: 50px;
+ }

@@ -7,7 +7,7 @@ module.exports = function (environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
-    apiHost: 'http://localhost:3000/',
+    apiHost: 'http://localhost:4741/',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -52,7 +52,7 @@ module.exports = function (environment) {
   if (environment === 'production') {
     ENV.rootURL = '/sport-highlights';
     ENV.locationType = 'hash';
-    ENV.apiHost = 'https://agile-caverns-89764.herokuapp.com/';
+    ENV.apiHost = 'https://powerful-citadel-79189.herokuapp.com';
   }
 
   return ENV;

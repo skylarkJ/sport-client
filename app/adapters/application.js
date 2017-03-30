@@ -1,4 +1,4 @@
-import ENV from 'sport-highlights/config/environment';
+import ENV from 'sport-client/config/environment';
 import ActiveModelAdapter from 'active-model-adapter';
 
 import Ember from 'ember';

@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   var ENV = {
-    modulePrefix: 'sport-highlights',
+    modulePrefix: 'sport-client',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -50,7 +50,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/sport-highlights';
+    ENV.rootURL = '/sport-client';
     ENV.locationType = 'hash';
     ENV.apiHost = 'https://powerful-citadel-79189.herokuapp.com';
   }

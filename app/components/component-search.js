@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import ENV from 'sport-highlights/config/environment';
+import ENV from 'sport-client/config/environment';
 
 export default Ember.Component.extend({
   search: '',

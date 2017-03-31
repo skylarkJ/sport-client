@@ -76,7 +76,7 @@ ember generate: make use of the many generators for code (try ember help generat
 Wireframes:
 ![wireframe-sport](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/wireframe-sport.png "Wireframes")
 
-## Link To Your Pitch Deck – Documentation Of Your Wireframes, User Stories, And Proposed Architecture
+## Link To My Pitch Deck – Documentation Of Your Wireframes, User Stories, And Proposed Architecture
 [my pitch deck for JUST HIGHLIGHTS](https://docs.google.com/presentation/d/1CRXbgFHTlAKbT8JktzDg_p8uQ-_ymQN-vpW0kXDPWaU/edit?usp=sharing)
 
 [Wireframes](https://www.evernote.com/l/AUCWu4rcvytES4RCCfHEfcSMPfHaP644Ybc)

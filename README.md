@@ -1,6 +1,6 @@
 ## An embedded Screenshot Of The App
-![JUST HIGHLIGHTS]
-()
+![highlights]
+(https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/highlights.png)
 
 ## Explanations Of The Technologies Used
 I have used javascript front end framework Ember.js while Ruby on Rails on the back end.

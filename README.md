@@ -1,6 +1,9 @@
-## An embedded Screenshot Of The App
-![highlights]
-(https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/highlights.png)
+## An Embedded Screenshot Of The App
+Highlights:
+![highlights](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/highlights.png "Highlights")
+
+Wireframes:
+![wireframe-sport](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/wireframe-sport.png "Wireframes")
 
 ## Explanations Of The Technologies Used
 I have used javascript front end framework Ember.js while Ruby on Rails on the back end.

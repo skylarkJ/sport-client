@@ -84,6 +84,11 @@ Wireframes:
 
 [Proposed Architecture](https://www.evernote.com/l/AUAhOWFkYg9P-oEawpN_yPQRtSccEMka-1s)
 
+[sport-client](https://github.com/skylarkJ/sport-client)
+[sport-api](https://github.com/skylarkJ/sport-api)
+[deployed client](https://skylarkj.github.io/sport-client/)
+[deployed api](https://powerful-citadel-79189.herokuapp.com/)
+
 ## Descriptions Of Any Unsolved Problems Or Major Hurdles You Had To Overcome
 
 I had a major hurdle with this snippet bellow. Specificaly with the publishedAt. YouTube has almost no examples of how their APIs can be accessed. The JSON data is available but I was forgetting the .data.

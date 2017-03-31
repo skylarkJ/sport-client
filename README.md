@@ -2,9 +2,6 @@
 Highlights:
 ![highlights](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/highlights.png "Highlights")
 
-Wireframes:
-![wireframe-sport](https://raw.githubusercontent.com/skylarkJ/sport-client/feature/public/wireframe-sport.png "Wireframes")
-
 ## Explanations Of The Technologies Used
 I have used javascript front end framework Ember.js while Ruby on Rails on the back end.
 YouTube highlights are rendered in the browser through a controller in the backend and route -
@@ -82,6 +79,10 @@ Wireframes:
 ## Link To Your Pitch Deck – Documentation Of Your Wireframes, User Stories, And Proposed Architecture
 [my pitch deck for JUST HIGHLIGHTS](https://docs.google.com/presentation/d/1CRXbgFHTlAKbT8JktzDg_p8uQ-_ymQN-vpW0kXDPWaU/edit?usp=sharing)
 
+[Wireframes](https://www.evernote.com/l/AUCWu4rcvytES4RCCfHEfcSMPfHaP644Ybc)
+[User Stories](https://www.evernote.com/l/AUCS4safzslABoAwJb6duONcc8rbzzvRsaw)
+
+[Proposed Architecture](https://www.evernote.com/l/AUAhOWFkYg9P-oEawpN_yPQRtSccEMka-1s)
 
 ## Descriptions Of Any Unsolved Problems Or Major Hurdles You Had To Overcome
 

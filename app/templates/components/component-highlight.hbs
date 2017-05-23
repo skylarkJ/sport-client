@@ -1,11 +1,14 @@
 {{#unless isHidden}}
-  <li>
+  <li class="video-block">
     <a target="_blank" href="http://youtube.com/watch?v={{highlight.id}}">
+      <div id="box">
       <div><img src="{{highlight.snippet.data.thumbnails.default.url}}"></div>
       <div class="wrapper-title">
-      <div>{{highlight.snippet.data.title}}</div>
-      <div>{{highlight.snippet.data.publishedAt}}</div>
+      <div class="highlight-title">{{highlight.snippet.data.title}}</div>
+      <div class="highlight-date">{{highlight.snippet.data.publishedAt}}</div>
       </div>
+     </div>
+
     </a>
     {{#if isAuthenticated}}
       <button {{action "addToFavorites" highlight}} class="style-buttons">Add To Favorites</button>

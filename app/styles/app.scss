@@ -83,7 +83,38 @@ $phone: '(max-width: 480px)';
 
 }
 
+//user's forms
+.form-group {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 
+label {
+color: grey;
+}
+
+.action-button {
+background-color: #ff4d4d !important;
+border: none;
+color: #fff;
+padding: 10px;
+}
+
+.action-button:hover {
+background-color: #ff1a1a !important;
+}
+
+.cancel-button {
+background-color: #a3c2c2 !important;
+border: none;
+color: #fff;
+padding: 10px;
+margin: 0 15px;
+}
+
+.cancel-button:hover {
+background-color: #669999 !important;
+}
 
 h1 {
   color: red;
